@@ -2,12 +2,27 @@
 @import "colors.scss";
 @import "nav.scss";
 
+* {
+    background-color: $bodyBgColor;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 /* Nest Main */
 main {
-    width: 1350px;
+    width: 100%;
     min-height:535px;
+    background-color: $mainBgColor;
 
-    #intro-test {
+    section {
+        display: inline-block;
+        height: 500px;
+    }
+
+    #intro-text {
+        background-color: $introTextBgColor;
+        padding-top: 130px;
+        width: 40%;
+
         span {
 
         }
